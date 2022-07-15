@@ -1,4 +1,4 @@
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
-let dbUrl = `${process.env.DB_URL}/${process.env.DB_NAME}`;
+let dbUrl = `mongodb+srv://Saran23:Saranm23@cluster0.89qlcus.mongodb.net/`;
 module.exports = {mongodb, MongoClient, dbUrl};
